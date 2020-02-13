@@ -4,14 +4,15 @@
 <head>
   <meta charset="UTF-8">
   <title>세민의 요리교실</title>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
   <div class="container">
-    <header class="hearder">
+    <header class="header">
       <h1 class="logo">
         <a href="#">
-          <img src="./assets/images/header.jpg" alt="YoKo's Kitchen Janpanese cooking classes"> 
+          <img src="./assets/images/header.jpg" alt="YoKo's Kitchen Janpanese cooking classes">
         </a>
       </h1>
     </header>
@@ -38,56 +39,58 @@
       </ul>
     </nav>
     <main class="main">
-      <section class="lecture">
-        <h2 class="a11y-hidden">
-          강좌 소개
-        </h2>
+      <div class="group group-left">
         <article class="vigan">
           <div class="detail">
-            <h3 class="article-subject">한국의 채식주의자</h3>
-            <p>런던에서의 5주 코스</p>
+            <h3 class="article-title">한국의 채식주의자</h3>
+            <p class="article-subtitle">런던에서의 5주 코스</p>
             <p>5주간 전통적인 일본의 채식주의자 음식에 대해 소개하고 쌀과 국수 요리를 가르친다.</p>
           </div>
           <figure class="thumnail">
             <img src="./assets/images/bok-choi.jpg" alt="">
             <figcaption>Bok Choi</figcaption>
           </figure>
+        </article>
+        <article class="master-class">
           <div class="detail">
-            <h3 class="article-subject">소스 마스터 클래스</h3>
-            <p>1일 워크샵</p>
+            <h3 class="article-title">소스 마스터 클래스</h3>
+            <p class="article-subtitle">1일 워크샵</p>
             <p>1일 집중 코스에서는 다양한 한국 요리 소스를 배울 수 있다.</p>
           </div>
           <figure class="thumnail">
             <img src="./assets/images/teriyaki.jpg" alt="">
             <figcaption>Teriyaki</figcaption>
           </figure>
-      </section>
-      <section class="favorite">
-        <h2 class="section-subject">
-          인기 요리법
-        </h2>
-        <ul class="cook-list">
-          <li><a href="#">야키토리 - 구운 닭</a>
-          </li>
-          <li><a href="#">츠쿠네 - 닭꼬치</a>
-          </li>
-          <li><a href="#">오코노미야키 - 해물 부침개</a>
-          </li>
-          <li><a href="#">미즈타키 - 영계백숙</a>
-          </li>
-        </ul>
-      </section>
-      <section class="address">
-        <h2 class="section-subject">
-          연락처
-        </h2>
-        <p>
-          세민 키친<br>
-          경기도<br>
-          용인시<br>
-          수지구<br>
-        </p>
-      </section>
+        </article>
+      </div>
+      <div class="group group-right">
+        <section class="favorite">
+          <h2 class="section-subject">
+            인기 요리법
+          </h2>
+          <ul class="cook-list">
+            <li><a href="#">야키토리 - 구운 닭</a>
+            </li>
+            <li><a href="#">츠쿠네 - 닭꼬치</a>
+            </li>
+            <li><a href="#">오코노미야키 - 해물 부침개</a>
+            </li>
+            <li><a href="#">미즈타키 - 영계백숙</a>
+            </li>
+          </ul>
+        </section>
+        <section class="address">
+          <h2 class="section-subject">
+            연락처
+          </h2>
+          <p>
+            세민 키친<br>
+            경기도<br>
+            용인시<br>
+            수지구<br>
+          </p>
+        </section>
+      </div>
     </main>
     <footer class="footer">
       <small class="copyright">&copy; 2011 세민의 키친</small>
